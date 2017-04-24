@@ -3,16 +3,27 @@ header {
 	width: 100%;
 	height: 100px;
 	background: black;
+	display: flex;
 
 }
 
 
 
-img {
+.logosize {
 	height: 100px;
 	width: 100px;
+	
 }
 
+.searchbutton {
+	height: 15px;
+	width: 15px;
+	display: flex;
+	align-self: flex-end;
+	align-content: space-between;
+	padding: 0px 0px 15px 30px;
+
+}
 
 
 body {
@@ -25,17 +36,25 @@ body {
 
 
 #ups {
-	background-color: grey;
-	margin: 0;
+	background-color:grey;
+	margin: 0px;
 	width: 100%;
 	height: 50px;
+
+	
+}
+
+p {
+    position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
 	font-family: "proxima-nova-bold";
 	font-size: 20px;
 	text-align: center;
-    color: white;
-    vertical-align:middle;
-}
+	margin: 0px; 
 
+}
 
 .adidasnew {
 	width: 100%;
@@ -46,28 +65,34 @@ body {
 
 h2 {
 	font-family: "proxima-nova-bold";
-	padding: 10px 20px 20px;
-	
-
+	font-size: 27px;
+	font-weight: 400;
+	padding: 10px 20px 0px 0px;
+	margin-left: 30px;
 }
 
+
+}
 
 .collection {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 100%;
-	margin: 20px 20px 40px 20px;
 	box-sizing: border-box;
 	width: calc(100% - 45px);
-}
+	padding-left: 20px;
+	margin-left: 10px;
+	margin-right:10px;
+	margin-bottom: 100px;
 
+}
 
 
 .collection img {
 	width: 280px;
 	height: 320px;
-	margin: 20px 20px 40px 20px;
+	margin: 10px 20px 20px 30px;
 
 }
 
@@ -77,23 +102,214 @@ h2 {
 }
 
 figure {
-	display: flex, 
-	 width: 1px;
-	  padding: 0;
-	   margin: 0;
-	flex-direction: row;
-	flex-wrap: wrap;
+	display: inline-block; 
+	margin: 0;
+	width: min-content;
 
 }
 
 figcaption {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+
+	text-align: center;
+	font-size: 15px;
+	font-family: Verdana;
+	font-style: normal;
+	list-style-type: disc;
+	color: grey;
+	padding: 0px;
+	margin: 0px;
 
 }
 
 figure img {
-	display: table-row
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+
 }
 
+
+
+a.button{
+		display:block;
+		border-radius: 2px;
+		height:40px;
+		text-align: center;
+		background-color: #fff;
+		box-sizing: border-box;
+	    text-transform: none;
+	    background: #fff;
+	    font-family: "proxima-nova-extrabold", Helvetica, Arial, sans-serif;
+	    font-size: 14px;
+	    padding: 15px 20px;
+	    display: block;
+	    text-align: center;
+	    border-radius: 2px;
+	    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+	    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	    box-sizing: border-box;
+	    border: 0px;
+	    line-height: 20px;
+	    margin-bottom: -6px;
+	    margin: 50px auto 100px;
+	    width: 150px;
+	    color: #333;
+	    left: 0px;
+	    height: auto;
+	    font-weight: 400;
+
+
+}
+
+.News {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	box-sizing: border-box;
+	width: calc(100% - 200px);
+	padding-left: 0px;
+	margin-left: 130px;
+	margin-bottom: 100px;
+}
+
+.News img {
+	width: 330px;
+	height: 453px;
+	margin: 20px 20px 10px 20px;
+
+}
+		
+
+h3 {
+
+	font-family: "proxima-nova-bold";
+	font-size: 27px;
+	font-weight: 400;
+	padding: 10px 20px 0px 20px;
+	margin-left: 130px;
+	margin-top:45px;
+	margin-bottom: 0;
+}	
+
+ul.filter {
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+}
+
+.filter li {
+	display: inline;
+	list-style: none;
+	padding-left: 30px;
+	margin-left: 1px;
+}
+
+.filter a {
+	padding : 3px 10px;
+	margin-left: -20px;
+	margin-right: -12px;
+
+}
+.filter a:link, .filter a:visited{
+	color: #fff;
+	background-color: #696969;
+	text-decoration: none;
+
+
+}
+
+.filter a:hover {
+	color: #fff;
+	background-color: #ff69b4;
+	text-decoration: none;
+}
+
+.pumafenty {
+	width: 100%;
+	height: 280px;
+	margin-bottom: 80px;
+}
+
+.bloggers {
+	width : 100%;
+	height : 280px;
+	margin-bottom: 0px;
+}
+
+footer {
+	margin: 0;
+	width: 100%;
+	height: 500px;
+	background: black;
+}
+
+.storefooter {
+	align-self: center;
+}
+
+input {
+	background-color: black;
+	width: 100px;
+	height: 50px;
+	align-content: bottom;
+	border: none;
+	color: white;
+	display: flex;
+	align-self: flex-end;
+	padding-left: 6px;
+}
+
+.navigation {
+	display: flex;
+	align-content: space-between;
+	flex-direction: row;
+	list-style: none;
+	font-family: Verdana;
+	color: white;
+	font-size: 13px;
+    
+
+
+}
+
+#navi {
+	display: flex;
+	flex-direction: row;
+	width: 450px;
+	height:40px;
+	margin-left:500px;
+	margin-top: 10px;
+}
+
+a {
+text-decoration: none; 
+color: white; 
+font-size:13px
+}
+
+a:hover {
+color: white;
+text-decoration: underline;
+}
+
+.basket {
+	margin: 21px 0px 0px 0px;
+	display: flex;	
+	width: 200px;
+	height: 30px;
+
+}
+
+.basketlogo {
+	width: 15px;
+	height: 15px;
+
+}
+
+.basket p {
+	color: white;
+	font-size: 13px;
+	font-family: Verdana;
+}
