@@ -82,7 +82,7 @@ h2 {
 	box-sizing: border-box;
 	width: calc(100% - 45px);
 	padding-left: 20px;
-	margin-left: 10px;
+	margin-left: 40px;
 	margin-right:10px;
 	margin-bottom: 100px;
 
@@ -90,8 +90,8 @@ h2 {
 
 
 .collection img {
-	width: 280px;
-	height: 320px;
+	width: 260px;
+	height: 310px;
 	margin: 10px 20px 20px 30px;
 
 }
@@ -105,6 +105,7 @@ figure {
 	display: inline-block; 
 	margin: 0;
 	width: min-content;
+
 
 }
 
@@ -203,16 +204,16 @@ ul.filter {
 	display: inline;
 	list-style: none;
 	padding-left: 30px;
-	margin-left: 1px;
+	margin-left: 10px;
 }
 
 .filter a {
 	padding : 3px 10px;
-	margin-left: -20px;
+	margin-left: -29px;
 	margin-right: -12px;
 
 }
-.filter a:link, .filter a:visited{
+.filter a:link, .filter a:visited {
 	color: #fff;
 	background-color: #696969;
 	text-decoration: none;
@@ -269,8 +270,6 @@ input {
 	font-family: Verdana;
 	color: white;
 	font-size: 13px;
-    
-
 
 }
 
@@ -283,16 +282,19 @@ input {
 	margin-top: 10px;
 }
 
+
 a {
 text-decoration: none; 
 color: white; 
 font-size:13px
 }
 
+
 a:hover {
 color: white;
 text-decoration: underline;
 }
+
 
 .basket {
 	margin: 21px 0px 0px 0px;
@@ -313,3 +315,33 @@ text-decoration: underline;
 	font-size: 13px;
 	font-family: Verdana;
 }
+
+.capnews {
+
+	text-align: left;
+	font-family: "proxima-nova-extra-thin";
+	font-style: thin;
+	list-style-type: disc;
+	padding: 0px;
+	margin: 0px 0px 0px 25px;
+	font-size: 36px;
+	line-height: 1.5em;
+	font-weight: 100;
+	color: #333333;
+
+}
+
+.capnewslil {
+	text-align: left;
+	font-family: "proxima-nova-extra-thin";
+	font-style: thin;
+	list-style-type: disc;
+	padding: 0px;
+	margin: 0px 0px 0px 26px;
+	font-size: 15px;
+	line-height: 1.5em;
+	font-weight: 100;
+	color: #333333;
+}
+
+
