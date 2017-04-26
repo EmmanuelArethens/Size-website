@@ -84,7 +84,7 @@ h2 {
 	padding-left: 20px;
 	margin-left: 40px;
 	margin-right:10px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 
 }
 
@@ -92,7 +92,7 @@ h2 {
 .collection img {
 	width: 260px;
 	height: 310px;
-	margin: 10px 20px 20px 30px;
+	margin: 10px 20px 30px 30px;
 
 }
 
@@ -172,7 +172,7 @@ a.button{
 	width: calc(100% - 200px);
 	padding-left: 0px;
 	margin-left: 130px;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 }
 
 .News img {
@@ -181,7 +181,12 @@ a.button{
 	margin: 20px 20px 10px 20px;
 
 }
-		
+	
+.pumafenty {
+	width: 100%;
+	height: 280px;
+	margin-bottom: 10px;
+}	
 
 h3 {
 
@@ -223,15 +228,12 @@ ul.filter {
 
 .filter a:hover {
 	color: #fff;
-	background-color: #ff69b4;
+	background-color: lightgrey;
 	text-decoration: none;
+	border-radius: 1px;
+	box-shadow: 3px 3px 0px lightgrey;
 }
 
-.pumafenty {
-	width: 100%;
-	height: 280px;
-	margin-bottom: 80px;
-}
 
 .bloggers {
 	width : 100%;
@@ -247,7 +249,7 @@ footer {
 }
 
 .storefooter {
-	align-self: center;
+	text-align: center;
 }
 
 input {
@@ -295,11 +297,19 @@ color: white;
 text-decoration: underline;
 }
 
+.button:hover {
+	color: black;
+	text-decoration: none;
+	border-radius:1px;
+	box-shadow: 8px 8px 8px 8px lightgrey;
+	
+
+}
 
 .basket {
-	margin: 21px 0px 0px 0px;
+	margin: 21px -30px 0px 0px;
 	display: flex;	
-	width: 200px;
+	width: 150px;
 	height: 30px;
 
 }
@@ -324,8 +334,8 @@ text-decoration: underline;
 	list-style-type: disc;
 	padding: 0px;
 	margin: 0px 0px 0px 25px;
-	font-size: 36px;
-	line-height: 1.5em;
+	font-size: 39px;
+	line-height: 1em;
 	font-weight: 100;
 	color: #333333;
 
@@ -343,5 +353,298 @@ text-decoration: underline;
 	font-weight: 100;
 	color: #333333;
 }
+
+
+.pumafentybanner {
+	background: url(/Documents/dev/Size-website/pumafentylarge.jpg)
+	background-size: cover;
+	width: 100%;
+	height: 280px;
+	margin-bottom: 80px;
+}
+
+#languages {
+	line-height: 18px;
+  	padding: 8px;
+	height: 36px;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #DFDFDF;
+	transition: color .3s,background-color .3s,border-color .3s,opacity .3s;
+	background-color: #fff;
+	border-color: #ccc;
+	font-family: arial;
+	font-size: 10pt;
+	border-collapse: collapse;
+	display: inline;
+	align-self: bottom-left ;
+}
+ #languages:hover {
+ 	text-decoration: none;
+	border-radius:1px;
+	color:black;
+
+ }
+
+.storefooter {
+	width: 250px;
+	height: 250px;
+	
+}
+
+.socialmedia {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+}
+
+.socialmedia img {
+	width: 50px;
+	height:60px;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+}
+.categ {
+	display:flex;
+}
+
+.categ li {
+	color: white;
+	margin-left: 20px;
+	list-style: none;
+
+}
+.brands:hover ul {
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+.brandscateg img {
+	width: 130px;
+	margin-left: 8px;
+}
+
+.brandscateg {
+	background: white;
+	z-index: 5;
+	position: absolute;
+	justify-content: flex-start;
+	width: 650px;
+	height: 500px;
+	display: none;
+	margin-top: 0px;
+	margin-left:-550px;
+	
+
+}
+
+.navbasket {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+}
+#category {
+	margin-left: -400px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
